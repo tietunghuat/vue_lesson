@@ -1,7 +1,8 @@
 <template>
   <div class="home">
     <HelloWorld msg="Welcome to Your Vue.js App!!" />
-
+    <HelloWorld title="I'm second title!!"/>
+    
     <div id="home1">
       <textarea class="ii1" placeholder="Show Here......"></textarea>
     </div>
@@ -11,9 +12,11 @@
 import HelloWorld from "@/components/HelloWorld.vue";
 export default {
   name: "HomeView",
-  components: { HelloWorld }
+  components: { HelloWorld },
+  
 };
 </script>
+
 
 <style>
 textarea {
