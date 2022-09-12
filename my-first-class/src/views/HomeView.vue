@@ -3,7 +3,7 @@
     <HelloWorld msg="Welcome to Your Vue.js App!!" />
 
     <div id="home1">
-      <textarea class="ii1" placeholder="Show Here..."></textarea>
+      <textarea class="ii1" placeholder="Show Here...."></textarea>
     </div>
   </div>
 </template>
