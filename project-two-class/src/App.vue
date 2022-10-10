@@ -4,18 +4,20 @@
   <button @click="change('Hello')">Change name</button>
   <button @click="changeage(30)">Change age</button> -->
 
-  <p>{{face[0].name}}</p>
+  <!-- <p>{{face[0].name}}</p> -->
+  <itemList :face="face"/>
   </div>
   
 </template>
 
 <script lang="ts">
 import { defineComponent,reactive,toRefs,ref } from 'vue';
-import facehere from "./type/type"
+import facehere from "./haloface/face"
+import itemList from "./components/itemList.vue"
 
 export default defineComponent({
   name: 'App',
-  components: {},
+  components: {itemList},
   // setup(){
   //  const state = reactive({
   //   name:"hihihi",
