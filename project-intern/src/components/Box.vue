@@ -13,12 +13,12 @@ export default defineComponent({
   components:{Box},
   setup(){
     const item = ref<BoxItem[]>([
-        {id:1,name:"X'mas Pack",unit:"NT$",price:120,details:"flavor tend sweety, fits to teeanger",img_url:"http://localhost:8080/picture/IMG_6569.PNG"},
-        {id:2,name:"Snow Man",unit:"NT$",price:39,details:"flavor tend sweety, fits to teeanger",img_url:"http://localhost:8080/picture/IMG_6570.PNG"},
-        {id:3,name:"Santa Hat",unit:"NT$",price:39,details:"flavor tend sweety, fits to teeanger",img_url:"http://localhost:8080/picture/IMG_6571.PNG"},
-        {id:4,name:"Chritsmas Tree",unit:"NT$",price:39,details:"flavor tend sweety, fits to teeanger",img_url:"http://localhost:8080/picture/IMG_6572.PNG"},
-        {id:5,name:"Reindeer Puff",unit:"NT$",price:39,details:"flavor tend sweety, fits to teeanger",img_url:"http://localhost:8080/picture/IMG_6573.PNG"},
-        {id:6,name:"Christmas Box",unit:"NT$",price:39,details:"flavor tend sweety, fits to teeanger",img_url:"http://localhost:8080/picture/IMG_6574.PNG"}
+        {id:1,name:"X'mas Pack",unit:"NT$",price:120,details:"flavor tend sweety, fits to teeanger",img_url:"./picture/IMG_6569.PNG"},
+        {id:2,name:"Snow Man",unit:"NT$",price:39,details:"flavor tend sweety, fits to teeanger",img_url:"./picture/IMG_6570.PNG"},
+        {id:3,name:"Santa Hat",unit:"NT$",price:39,details:"flavor tend sweety, fits to teeanger",img_url:"./picture/IMG_6571.PNG"},
+        {id:4,name:"Chritsmas Tree",unit:"NT$",price:39,details:"flavor tend sweety, fits to teeanger",img_url:"./picture/IMG_6572.PNG"},
+        {id:5,name:"Reindeer Puff",unit:"NT$",price:39,details:"flavor tend sweety, fits to teeanger",img_url:"./picture/IMG_6573.PNG"},
+        {id:6,name:"Christmas Box",unit:"NT$",price:39,details:"flavor tend sweety, fits to teeanger",img_url:"./picture/IMG_6574.PNG"}
     ]);
     return {item};
   }

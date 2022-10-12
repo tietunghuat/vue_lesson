@@ -30,7 +30,7 @@ export default defineComponent({
 body{
   margin: 0;
   padding: 0;
-  background-color: rgba(106, 75, 16, 0.848);
+  background-color: #241E15;
   
 }
 </style>
