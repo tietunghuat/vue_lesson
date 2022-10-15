@@ -13,7 +13,7 @@
   </Nohell>
   
   </div>
-  <button @click.shift="openmodal()">On(press shift+left click)</button>
+  <button @click.ctrl="openmodal()">On(press ctrl+left click)</button>
   <button @click="closemodal()">off</button>
 </template>
 
