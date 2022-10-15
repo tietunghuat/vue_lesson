@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-  <div :class="{ hahahahah :theme === 'sale'}"> <!--class等於hahaha 如果 theme===sale 和 app.vue的theme=sale一致-->
+  <div :class="{ hahahahahahaha :theme === 'sale'}"> <!--class等於hahaha 如果 theme===sale 和 app.vue的theme=sale一致-->
     <h1>{{ title_message }}</h1>
     <p>{{pav}}</p>
   </div>
