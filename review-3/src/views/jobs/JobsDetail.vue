@@ -23,7 +23,7 @@ export default {
   },
 
   mounted() {
-    fetch("http://localhost:3000/duties/" + this.id)
+    fetch("http://localhost:3000/duties" + "/" + this.id)
       .then((res) => res.json())
       .then((data) => (this.job = data))
       .catch((err) => console.log(err.message));

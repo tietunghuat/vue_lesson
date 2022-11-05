@@ -1,0 +1,16 @@
+{
+  "postsku": [
+    {
+      "title": "Vue lesson Composition API",
+      "body": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, ea sapiente. Nulla, officiis! Mollitia doloribus fugiat iste molestias! Eaque assumenda veniam reiciendis. Maiores in harum ratione placeat maxime accusantium dolor.",
+      "id": 1,
+      "tags": "HTML"
+    },
+    {
+      "title": "Vue lesson Composition API part 2",
+      "body": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, ea sapiente. Nulla, officiis! Mollitia doloribus fugiat iste molestias! Eaque assumenda veniam reiciendis. Maiores in harum ratione placeat maxime accusantium dolor. ",
+      "id": 2,
+      "tags": "css"
+    }
+  ]
+}
